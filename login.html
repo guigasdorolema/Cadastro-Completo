@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Cadastro de Usuário</legend>
+            <label>Nome:</label>
+            <input type="text" id="Inome" name="tnome">
+            <br>
+            <label>Data de Nascimento:</label>
+            <input type="date" id="idata" name="ddata">
+            <br>
+            <label>E-mail:</label>
+            <input type="mail" id="iemail" name="memail" placeholder="seuemail@seudominio.com.br">
+            <br>
+            <label>Senha:</label>
+            <input type="password" id="isenha" name="psenha">
+            <br>
+            <label>Confirme E-mail:</label>
+            <input type="mail" id="iconfirme" name="mconfirme">
+            <br>
+
+            <label for="isexo">Sexo</label>
+            <select name="ssexo" id="isexo">
+                <option value="M">Masculino</option>
+                <option value="F">Feminino</option>
+                <option value="A">Agênero</option>
+            </select>
+            <br>
+            <label>Tipo:</label>
+            <input type="radio" id="itpusuario" name="rtipo">
+            <label for="itpusuario">Usuário</label>
+
+            <input type="radio" name="rtipo" id="itpadmin" value="A">
+            <label for="itpadmin">Adimim</label>
+            <br>
+
+        <label for="ivoce">Fale sobre você</label>
+             <br>
+             <textarea name="txtvoce" id="ivoce" cols="30" rows="10"></textarea>
+             
+
+            
+            <br>
+            <input type="checkbox" name="cklogado" id="ilogado">
+            <label>Permanecer Logado</label>
+            <br>
+            <input type="submit" id="ientrar" name="sentrar" value="Entrar">
+        </fieldset>
+    </form>
+</body>
+</html>
